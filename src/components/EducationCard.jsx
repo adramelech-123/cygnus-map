@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
-import "./EducationCard.css";
+import "../styles/EducationCard.css";
 import { Link } from "react-router-dom";
+
 
 export const EducationCard = ({
   country,

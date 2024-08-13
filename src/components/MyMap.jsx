@@ -4,7 +4,7 @@ import MarkerClusterGroup from "react-leaflet-cluster"
 import { Marker } from 'react-leaflet/Marker'
 import { Icon, divIcon, LatLngBounds } from "leaflet";
 import "leaflet/dist/leaflet.css";
-import "./MyMap.css"
+import "../styles/MyMap.css"
 import mapData from "../data/countries.json";
 import {myMarkers} from "../data/markers.js"
 import {

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import {useState} from "react"
 
-import "./SearchFilter.css";
+import "../styles/SearchFilter.css";
 
 const SearchFilter = ({ onSearchChange }) => {
   const [searchTerm, setSearchTerm] = useState("");
